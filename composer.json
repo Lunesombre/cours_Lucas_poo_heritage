@@ -1,0 +1,21 @@
+{
+  "name": "ld-web/shems-polymorph",
+  "authors": [
+    {
+      "name": "Lucas Delobelle",
+      "email": "lucas@ld-web.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "classes/"
+    }
+  },
+  "scripts": {
+    "start": "php -S localhost:8000"
+  },
+  "config": {
+    "process-timeout": 0
+  },
+  "require": {}
+}
